@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* This maps the CSS variables from layout.tsx to Tailwind utilities */
+  --font-heading: var(--font-archivo);
+  --font-body: var(--font-roboto);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Base styles using the CSS variables from Next.js Font */
+@layer base {
+  html {
+    /* This ensures everything defaults to Roboto */
+    font-family: var(--font-roboto), ui-sans-serif, system-ui;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    /* This ensures all headings use Archivo */
+    font-family: var(--font-archivo), ui-sans-serif, system-ui;
+  }
+
+  button.btn-text > span {
+    display: inline-flex;
+    gap: 0.2rem;
+  }
 }
