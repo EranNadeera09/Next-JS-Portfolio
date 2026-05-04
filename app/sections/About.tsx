@@ -16,7 +16,7 @@ const skills = [
 
 const About = () => {
   return (
-    <section id="about" aria-labelledby="about-heading" className="py-24 px-6 md:px-12 border-t border-stone-300">
+    <section id="about" aria-labelledby="about-heading" className="py-24 px-6 md:px-12">
       <div className="grid md:grid-cols-2 gap-16 items-start">
 
         {/* Left — Bio */}

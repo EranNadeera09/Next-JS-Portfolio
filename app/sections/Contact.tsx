@@ -27,7 +27,7 @@ const FiverrIcon = () => (
 
 const Contact = () => {
   return (
-    <section id="contact" aria-labelledby="contact-heading" className="py-24 px-6 md:px-12 border-t border-stone-300">
+    <section id="contact" aria-labelledby="contact-heading" className="py-24 px-6 md:px-12">
 
       {/* CTA Heading */}
       <div className="mb-16">

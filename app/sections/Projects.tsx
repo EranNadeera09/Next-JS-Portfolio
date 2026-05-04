@@ -61,7 +61,7 @@ const Projects = () => {
     <section
       id="projects"
       aria-labelledby="projects-heading"
-      className="py-24 px-6 md:px-12 border-t border-stone-300"
+      className="py-24 px-6 md:px-12"
     >
       {/* ── Section header ── */}
       <div className="flex items-end justify-between mb-16">

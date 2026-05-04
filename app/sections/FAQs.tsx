@@ -33,7 +33,7 @@ const FAQs = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   return (
-    <section id="faqs" aria-labelledby="faqs-heading" className="py-24 px-6 md:px-12 border-t border-stone-300">
+    <section id="faqs" aria-labelledby="faqs-heading" className="py-24 px-6 md:px-12">
       <div className="grid md:grid-cols-[1fr_2fr] gap-16">
 
         {/* Left */}

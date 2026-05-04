@@ -19,7 +19,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" aria-labelledby="testimonials-heading" className="py-24 px-6 md:px-12 border-t border-stone-300 bg-stone-900">
+    <section id="testimonials" aria-labelledby="testimonials-heading" className="py-24 px-6 md:px-12 bg-stone-900">
 
       {/* Header */}
       <div className="mb-16">
