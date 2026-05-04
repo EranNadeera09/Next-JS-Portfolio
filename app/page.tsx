@@ -53,7 +53,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
-      <main id="main-content">
+      <main id="main-content" className="max-w-7xl mx-auto">
         <Hero />
         <About />
         <Projects />
