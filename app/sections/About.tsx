@@ -6,7 +6,7 @@ const skills = [
   // CMS
   "WordPress", "Webflow", "Shopify", "WooCommerce",
   // Frameworks
-  "React.js","Next.js", "Bootstrap", "Laravel",
+  "React.js","Next.js", "Bootstrap", "Tailwind CSS",
   // SEO
   "Technical SEO", "Core Web Vitals", "Schema Markup",
   "Screaming Frog", "SEMrush", "Ubersuggest",

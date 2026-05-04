@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 
   // Canonical
   alternates: {
-    canonical: "https://erannadeera.com", // update with your real domain
+    canonical: "", // update with your real domain
   },
 
   // Open Graph — for social sharing
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png", // create a 1200×630 OG image and place it in /public
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Eran Nadeera — Web Developer & Technical SEO Developer",
@@ -102,7 +102,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${archivo.variable} ${roboto.variable}`}>
-      <body className="antialiased bg-stone-200 text-stone-900 font-body">
+      <body className="antialiased bg-stone-200! text-stone-900! font-body">
         {children}
       </body>
     </html>
