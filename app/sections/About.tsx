@@ -47,7 +47,7 @@ const About = () => {
 
           {/* CTA */}
           <a
-            href="/files/Web_Developer_CV_Eran_Nadeera.pdf"
+            href="/files/Frontend-Developer-Eran-Nadeera-CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Download Eran Nadeera's CV"
