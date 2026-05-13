@@ -23,10 +23,6 @@ const faqs = [
     q: "Do you work with international clients?",
     a: "Absolutely. I have hands-on agency experience working remotely with clients in New Zealand (The Permalinks, Auckland). I regularly collaborate across time zones via email, video call, and project management tools. Geographic distance is no barrier.",
   },
-  {
-    q: "How much does it cost to hire you?",
-    a: "Pricing depends on project scope and complexity. A simple landing page starts from $100–$300 USD. A full website build starts from $500–$2,500 USD. I'm happy to provide a detailed quote after a free 20-minute discovery call — no obligations.",
-  },
 ]
 
 const FAQs = () => {
